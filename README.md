@@ -1,10 +1,10 @@
 # [Just show me how](#how-do-i-find-out-who-brought-that-dependency-in-my-module)
 
 # Why do I exist?
-To filter the data produced by dependencyTree and find out how that pesky transitive library ended up in my module.
+To filter the data produced by [dependencyTree](https://www.baeldung.com/scala/sbt-dependency-tree) and find out how that pesky transitive library ended up in my module.
 I just want to know for dependencies X,Y,Z what dependencies bring it in my project.
 
-# Doesn't dependencyBrowseTree solve that for me?
+# Doesn't [dependencyBrowseGraph](https://www.baeldung.com/scala/sbt-dependency-tree) solve that for me?
 Not always apparently, it fails with stackoverflow sometimes.
 
 # Why not ide or some text editor?
