@@ -1,0 +1,8 @@
+.direnv
+target
+dependencyTree.txt
+originalDependencyTree.txt
+originalDependencyTree_backup.txt
+shell.nix
+.envrc
+
