@@ -12,7 +12,7 @@ Text editor wise it's not great because you lose the structure.
 IDEs are not great with 10Mb files, tend to freeze up (including nvim :( )
 
 # How do I find out who brought that dependency in my module?
-Use the dependencyTree to export all data.
+Use the [dependencyTree from sbt-dependency-graph plugin](https://www.baeldung.com/scala/sbt-dependency-tree) to export all data.
 
 ```
 sbt dependencyTree > dependencyTreeExport.txt
