@@ -91,6 +91,3 @@ com.myproject:mytest_3:0.0.0-166-cc699f8c
  |  |  | org.scala-lang.modules:scala-parser-combinators_2.13:2.3.0 [S]
 
 ```
-
-# Why is this written in Rust and not Scala?
-Next question please.
